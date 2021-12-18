@@ -1,0 +1,34 @@
+.products__wrap{
+    display:grid;
+    place-items: center;
+    grid-template-columns: auto auto auto auto;
+    margin-top: -300px;
+}
+.products__wrap .product{
+    background-color: #fff;
+    padding: 10px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 37%);
+    margin: 0px 5%;
+    margin-bottom: 30px;
+    
+}
+.products__wrap .prodcut img{
+    max-width: 100%;
+}
+
+.products__wrap .product button{
+    background: #cd9042;
+    border: 0px;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    
+    font-weight: bold;
+}
+.products__wrap .product p{
+    color: #cd9042;
+    margin: 0px;
+    margin-bottom: 10px;
+}
